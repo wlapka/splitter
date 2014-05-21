@@ -3,7 +3,7 @@
  *
  * @created May 12, 2014 10:07:28 AM
  */
-package net.thoiry.lapka.splitter.model;
+package net.thoiry.lapka.splitter.order.model;
 
 
 /**

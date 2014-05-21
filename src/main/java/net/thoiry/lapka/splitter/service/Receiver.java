@@ -3,7 +3,7 @@
  *
  * @created May 12, 2014 10:05:32 AM
  */
-package net.thoiry.lapka.splitter;
+package net.thoiry.lapka.splitter.service;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CountDownLatch;

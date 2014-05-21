@@ -3,20 +3,21 @@
  *
  * @created May 12, 2014 11:49:08 AM
  */
-package net.thoiry.lapka.splitter;
+package net.thoiry.lapka.splitter.order;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.thoiry.lapka.splitter.model.Order;
-import net.thoiry.lapka.splitter.model.OrderItem;
-import net.thoiry.lapka.splitter.model.SplittedOrderItem;
+import net.thoiry.lapka.splitter.order.model.Order;
+import net.thoiry.lapka.splitter.order.model.OrderItem;
+import net.thoiry.lapka.splitter.order.model.SplittedOrderItem;
+import net.thoiry.lapka.splitter.service.Splitter;
 
 /**
  * @author wlapka
  * 
  */
-public class OrderSplitter implements Splitter<Order, SplittedOrderItem> {
+public class OrderSplitterImpl implements Splitter<Order, SplittedOrderItem> {
 
 	@Override
 	public List<SplittedOrderItem> split(Order order) {

@@ -3,9 +3,7 @@
  *
  * @created May 12, 2014 11:14:52 AM
  */
-package net.thoiry.lapka.splitter.model;
-
-
+package net.thoiry.lapka.splitter.order.model;
 
 /**
  * @author wlapka
@@ -25,6 +23,22 @@ public class SplittedOrderItem {
 		this.numberOfItems = numberOfItems;
 	}
 
+	public long getOrderId() {
+		return orderId;
+	}
+
+	public OrderItem getOrderItem() {
+		return orderItem;
+	}
+
+	public int getPosition() {
+		return position;
+	}
+
+	public int getNumberOfItems() {
+		return numberOfItems;
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;

@@ -3,7 +3,7 @@
  *
  * @created May 12, 2014 10:05:06 AM
  */
-package net.thoiry.lapka.splitter.model;
+package net.thoiry.lapka.splitter.order.model;
 
 import java.util.List;
 
